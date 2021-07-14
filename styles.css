@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 1200px;
+    height: 1965px;
+    background-color: #8c929a;
+    font-family: Montserrat;
+}
+
+/* wrapper */
+.wrapper {
+    background-color: #fff;
+    box-shadow: 20px 20px 20px rgba(0.5, 0.5,0.5, 0.5);
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    font-family: 'Montserrat';
+}
+
+/* sidebar */
+.sidebar {
+    background-color: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.foto {
+    width: 370px;
+}
+
+/* contacts-container */
+.contacts-container {
+    margin: 60px 40px;
+}
+
+.contacts-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contacts-links {
+    color: #8c929a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.c-e {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+
+}
+
+/* skills container */
+.tech-skills-container {
+    margin: 60px 40px 0;
+}
+
+.soft-skills-container {
+    margin: 60px 40px 0;
+}
+
+.skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.skills-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#ff6b08;
+    margin-left: 15px;
+}
+
+.skills-text {
+    color: #fff;
+}
+
+/* about me container */
+.about {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.front-end-developer-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.name {
+    margin-top: 24px;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.about-me {
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #595959;
+}
+
+/* project container */
+.project-title{
+    margin-top: 64px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.project-links {
+    text-decoration: none; 
+    color: #595959;
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    transition: color .3s linear;
+}
+
+.project-links:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #595959;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    transition: opacity .5 linear;
+}
+
+.project-links-description {
+    color: #595959;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project-links:hover {
+    color: #ff6b08;
+}
+
+.project-links:hover:after {
+    opacity: 1;
+}
+
+/* work_expiriense */
+.work-expiriense-title{
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.workplace{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.management {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.time {
+    font-size: 14px;
+    font-weight: 400;
+    color: #595959;
+}
+
+.orange {
+    color: #ff6b08;
+}
+
+.ul {
+    
+    margin-left: 15px;
+    margin-top: 15px;
+}
